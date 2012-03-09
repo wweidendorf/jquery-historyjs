@@ -20,4 +20,4 @@ module Historyjs
       end
     end
   end
-end if ::Rails.version < "3.1"
+end if ::Rails.version < "3.1" || !::Rails.application.config.assets.enabled

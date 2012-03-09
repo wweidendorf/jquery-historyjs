@@ -10,8 +10,8 @@ module Historyjs
         say_status("copying", "History.js (#{Historyjs::Rails::HISTORYJS_VERSION})", :green)
 
         copy_file "history_core.js",           "public/javascripts/history.js"
-        copy_file "history.html4.js",          "public/javascripts/history.html4.js"
-        copy_file "history.adapter.jquery.js", "public/javascripts/history.adapter.jquery.js"
+        copy_file "history_html4.js",          "public/javascripts/history.html4.js"
+        copy_file "history_adapter_jquery.js", "public/javascripts/history.adapter.jquery.js"
       end
 
       def copy_json2

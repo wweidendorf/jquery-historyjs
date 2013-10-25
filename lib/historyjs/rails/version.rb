@@ -1,7 +1,7 @@
 module Historyjs
   module Rails
-    VERSION               = "0.2.3"
-    HISTORYJS_VERSION     = "1.7.1-r2"
-    JSON2_VERSION         = "47a9882cdd"
+    VERSION               = "0.3.0"
+    HISTORYJS_VERSION     = "1.8.0-b2"
+    JSON2_VERSION         = "e39db4b7e6"
   end
 end
